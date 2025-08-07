@@ -55,7 +55,14 @@ body {
     width: 100%;
 }
 
-.profile {
-    position: relative;
-    left: 32rem;
+.profile-picture {
+    width: 150px;
+    height: 150px;
+}
+
+@media (min-width: 768px) {
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
 }

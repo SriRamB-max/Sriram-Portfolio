@@ -47,21 +47,28 @@
 
     <main class="pt-20">
         <!-- Hero Section -->
-        <section id="home" class="container mx-auto px-6 py-24 md:py-32 text-center">
-            <img src="./src/assets/sriram.png" alt="Profile" class="profile">
-            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">Sriram Balamurugan</h1>
-            <p class="text-xl md:text-2xl text-sky-300 mt-4">Web Developer</p>
-            <p class="mt-6 max-w-2xl mx-auto text-gray-300">
-                A passionate web developer with a knack for building responsive, user-friendly applications and bringing
-                ideas to life with code.
-            </p>
-            <div class="mt-8 flex justify-center gap-4">
-                <a href="mailto:sriramb2k2@gmail.com"
-                    class="btn bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-6 rounded-lg">Contact Me</a>
-                <a href="https://github.com/SriRamB-max" target="_blank" rel="noopener noreferrer"
-                    class="btn bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg">
-                    GitHub
-                </a>
+        <section id="home" class="container mx-auto px-6 py-24 md:py-32">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-12">
+                <!-- Profile Picture -->
+                <div class="flex-shrink-0">
+                    <img src="./src/assets/sriram.png" 
+                         alt="Sriram Balamurugan Profile Picture" 
+                         class="profile-picture rounded-full border-4 border-sky-500 object-cover shadow-lg">
+                </div>
+                <!-- Hero Text -->
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">Sriram Balamurugan</h1>
+                    <p class="text-xl md:text-2xl text-sky-300 mt-4">Web Developer</p>
+                    <p class="mt-6 max-w-xl text-gray-300">
+                        A passionate web developer with a knack for building responsive, user-friendly applications and bringing ideas to life with code.
+                    </p>
+                    <div class="mt-8 flex justify-center md:justify-start gap-4">
+                        <a href="mailto:sriramb2k2@gmail.com" class="btn bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-6 rounded-lg">Contact Me</a>
+                        <a href="https://github.com/SriRamB-max" target="_blank" rel="noopener noreferrer" class="btn bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
