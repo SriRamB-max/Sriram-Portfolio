@@ -60,6 +60,12 @@ body {
     height: 150px;
 }
 
+.Task-1,
+.Task-2,
+.Task-3 {
+    object-position: top center;
+}
+
 @media (min-width: 768px) {
     .profile-picture {
         width: 200px;
